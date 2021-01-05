@@ -1,4 +1,4 @@
-# Sddm-lain-wired-theme
+# Sddm-zelda-theme
 
 A sddm login screen inspired by 1998 anime ["Serial Experiments Lain"](https://myanimelist.net/anime/339/Serial_Experiments_Lain)
 
