@@ -26,7 +26,7 @@ Rectangle {
 		width: parent.width
 		height: parent.height
 		fillMode: Image.Tile
-		source: "bgN5.gif"
+		source: "link_nod.gif"
 	}
 
 	ColumnLayout {
@@ -60,7 +60,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#10b552"
 				}
 			}
 			KeyNavigation.backtab: shutdownBtn; KeyNavigation.tab: password
@@ -86,7 +86,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#10b552"
 				}
 			}
 			KeyNavigation.backtab: username; KeyNavigation.tab: session
@@ -148,7 +148,7 @@ Rectangle {
 		y: shutdownBtn.y + 10
 		height: 70
 		width: 60
-		source: "link_nod.gif"
+		source: "logout.gif"
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
 			anchors.fill: parent
@@ -174,9 +174,9 @@ Rectangle {
 		model: sessionModel
 		index: sessionModel.lastIndex
 		color: "#000"
-		borderColor: "#d2738a"
-		focusColor: "#d2738a"
-		hoverColor: "#d2738a"
+		borderColor: "#10b552"
+		focusColor: "#10b552"
+		hoverColor: "#10b552"
 		textColor: "#c1b492"
 		arrowIcon: "angle-down.png"
 		KeyNavigation.backtab: password; KeyNavigation.tab: rebootBtn;
@@ -186,11 +186,7 @@ Rectangle {
 		source: "bg_music.wav"
 		autoPlay: true
 		loops: Audio.Infinite
-	}
-	Audio {
-		id: welcome
-		source: "welcome.wav"
-		autoPlay: true
+		volume: 0.5
 	}
 	Audio {
 		id: denied
