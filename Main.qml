@@ -37,17 +37,17 @@ Rectangle {
 			Layout.topMargin: 2
 			width: 192
 			height: 192
-			source: "WiredLogIn.gif"
+			source: "triforce.gif"
 		}
 		AnimatedImage{
 			Layout.alignment: Qt.AlignCenter
 			Layout.bottomMargin: 20
 			height: 50
-			source: "whoIsUser.gif"
+			source: "login.png"
 		}
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
-			text: "Ｕｓｅｒ ＩD:"
+			text: "Hero Name:"
 			color: "#c1b492"
 			font.pixelSize: 16
 		}
@@ -124,7 +124,7 @@ Rectangle {
 		width: 80
 		y: 10
 		x: Window.width - width - 10
-		source: "VisLain.gif"
+		source: "shutdown.gif"
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
 			anchors.fill: parent
@@ -148,7 +148,7 @@ Rectangle {
 		y: shutdownBtn.y + 10
 		height: 70
 		width: 60
-		source: "lain_myese.gif"
+		source: "link_nod.gif"
 		fillMode: Image.PreserveAspectFit
 		MouseArea {
 			anchors.fill: parent
