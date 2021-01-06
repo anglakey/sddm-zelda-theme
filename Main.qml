@@ -104,13 +104,13 @@ Rectangle {
 			width: 200
 			Rectangle {
 				anchors.fill: parent
-				color: "#d2738a"
+				color: "#10b552"
 			}
 			Qqc.Label {
 				Layout.alignment: Qt.AlignCenter
 				text: "Ｌｏｇｉｎ"
-				color: "#c1b492"
-				font.pixelSize: 20
+				color: "#cdd61a"
+				font.pixelSize: 40
 			}
 			MouseArea {
 				anchors.fill: parent
@@ -149,7 +149,7 @@ Rectangle {
 		height: 70
 		width: 60
 		source: "logout.gif"
-		fillMode: Image.PreserveAspectFit
+		fillMode: Image.Pad
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
